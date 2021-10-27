@@ -5,6 +5,7 @@ import image from "../../resources/images/image.jpg";
 import { countDown } from "./CountDown";
 import Prizes from "../Prizes/Prizes";
 import Footer from "../Footer/Footer";
+import Faq from "../FAQ/Faq";
 
 const Home = () => {
   setInterval(countDown, 1000);
@@ -48,6 +49,8 @@ const Home = () => {
       <Prizes />
 
       <Footer />
+      <Prizes/>
+      <Faq/>
     </>
   );
 };
