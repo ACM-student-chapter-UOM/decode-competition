@@ -13,21 +13,25 @@ export default function Timeline() {
             title: "Team Registration",
             line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
             line2: "Lorem Ipsum has been the industry's standard dummy text",
+            date: "NOVEMBER 01st"
         },
         {
             title: "Team Registration",
             line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
             line2: "Lorem Ipsum has been the industry's standard dummy text",
+            date: "NOVEMBER 01st"
         },
         {
             title: "Team Registration",
             line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             line2: "Lorem Ipsum has been the industry's standard dummy text",
+            date: "NOVEMBER 01st"
         },
         {
             title: "Team Registration",
             line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
             line2: "Lorem Ipsum has been the industry's standard dummy text",
+            date: "NOVEMBER 01st"
         },
     ]
 
@@ -42,6 +46,7 @@ export default function Timeline() {
                                 title={item.title}
                                 line1={item.line1}
                                 line2={item.line2}
+                                date={item.date}
                                 id={index}
                                 key={index}
                             />

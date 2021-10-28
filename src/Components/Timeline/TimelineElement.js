@@ -1,7 +1,7 @@
 import React from "react";
 import { VerticalTimelineElement }  from 'react-vertical-timeline-component';
 
-export default function TimelineElement({id, title, line1, line2}) {
+export default function TimelineElement({id, title, line1, line2, date}) {
 
     const side = id ? id%2===0 ? "Right" : "Left" : "Right"
     console.log(side)
@@ -11,7 +11,7 @@ export default function TimelineElement({id, title, line1, line2}) {
             className="vertical-timeline-element--work"
             contentStyle={{ position: "relative", background: '#071330' ,boxShadow: "none", padding: 0, [`padding${side}`]: 32, minHeight: 150}}
             contentArrowStyle={{ borderRight: '7px solid  rgba(0,0,0,0)' }}
-            date="NOVEMBER 01st"
+            date={date || ""}
             iconStyle={{ background: '#fff', color: '#fff' }}
             dateClassName={ "date" }
         >
