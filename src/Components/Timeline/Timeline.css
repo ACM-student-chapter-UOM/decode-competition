@@ -1,0 +1,208 @@
+.svg {
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
+
+.title {
+    color: white;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.vertical-timeline {
+    width: 1170px !important;
+}
+
+.date {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 125px !important;
+    height: 125px !important;
+    padding: 0 32px !important;
+    margin: -32px 64px 0 64px;
+    color: white !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    transition: all 200ms ease;
+}
+
+.timeline-element {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.timeline-element .line {
+    width: 106px;
+    height: 4px !important;
+    background-color: #29918e;
+    position: absolute;
+    top: 15px;
+}
+
+.timeline-element .circle {
+    width: 125px;
+    height: 125px;
+    background-color: rgba(7, 19, 48, 0);
+    border-radius: 50%;
+    border: 2px solid #29918e;
+    position: absolute;
+    top: -25px;
+    transition: all 200ms ease;
+}
+
+.timeline-element .sub-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #071330;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    transition: all 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(odd) .timeline-element hr {
+    right: -200px;
+    transition: right 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(odd):hover .timeline-element hr {
+    right: -170px;
+    transition: right 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(even) .timeline-element hr {
+    left: -200px;
+    transition: left 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(even):hover .timeline-element hr {
+    left: -170px;
+    transition: left 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(odd) .timeline-element .circle {
+    right: -325px;
+    transition: right 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(odd):hover .timeline-element .circle {
+    right: -299px;
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(odd) .timeline-element .sub-circle {
+    right: -95.5px;
+    transition: right 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(odd):hover .timeline-element .sub-circle {
+    right: -80px;
+    transition: all 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(even) .timeline-element .circle {
+    left: -325px;
+    transition: left 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(even):hover .timeline-element .circle {
+    left: -299px;
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(even) .timeline-element .sub-circle {
+    left: -95.5px;
+    transition: left 200ms ease;
+}
+
+.vertical-timeline-element--work:nth-child(even):hover .timeline-element .sub-circle {
+    left: -80px;
+    transition: all 200ms ease;
+}
+
+.vertical-timeline-element--work:hover .date {
+    transform: scale(1.1);
+    transition: all 200ms ease;
+}
+
+@media only screen and (max-width: 1171px) {
+    .vertical-timeline {
+        width: 50% !important;
+    }
+
+    .date {
+        margin-top: 16px;
+    }
+
+    .vertical-timeline-element--work {
+        max-width: 375px;
+        width: 100%;
+    }
+
+    .timeline-element {
+        align-items: start !important;
+        margin-left: 8px;
+    }
+
+    .timeline-element .line {
+        top: 0 !important;
+        left: -16px !important;
+        right: 0 !important;
+        background-color: white;
+        width: 15px;
+    }
+
+    .vertical-timeline-element--work:nth-child(even) .timeline-element .line {
+        width: 45px;
+
+    }
+
+    .timeline-element .circle {
+        left: 0 !important;
+        right: 0 !important;
+        top: 112px;
+    }
+
+    .vertical-timeline-element--work:nth-child(odd) .timeline-element .circle {
+        left: 55px !important;
+    }
+
+    .vertical-timeline-element--work:nth-child(even) .timeline-element .circle {
+        left: 105px !important;
+    }
+
+    .timeline-element .sub-circle {
+        width: 25px;
+        height: 25px;
+        right: 0 !important;
+        left: -53px !important;
+        top: 7px;
+        transform: scale(1);
+        transition: all 200ms ease;
+    }
+
+    .vertical-timeline-element--work:hover .timeline-element .sub-circle {
+        transform: scale(1.5);
+        transition: all 200ms ease;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .vertical-timeline {
+        width: 100% !important;
+    }
+    .timeline-element .circle {
+        top: 98px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .vertical-timeline {
+        width: 100% !important;
+    }
+}
