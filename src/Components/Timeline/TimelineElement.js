@@ -16,7 +16,7 @@ export default function TimelineElement({id}) {
             dateClassName={ "date" }
         >
             <div className="timeline-element" style={{ alignItems: `${side === "Right" ? "end" : "start"}` }}>
-                <h3 style={{color: "white"}} className="vertical-timeline-element-title">Team Registrations</h3>
+                <h4 style={{color: "white"}} className="vertical-timeline-element-title">Team Registrations</h4>
                 <p style={{color: "white"}}>Register your team by</p>
                 <p style={{color: "white", marginTop: 0}}>filling the form provided.</p>
                 <hr className="line" />
