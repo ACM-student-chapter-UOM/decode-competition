@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab71598-e27b-40cf-aeea-201c9e59671f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/FAQ/Faq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/FAQ/faq1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Timeline/Timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline/Timeline.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Timeline/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline/Timeline.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Timeline/TimelineElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline/TimelineElement.js" afterDir="false" />
@@ -44,7 +49,7 @@
       <updated>1635211737090</updated>
       <workItem from="1635211740436" duration="3552000" />
       <workItem from="1635305042801" duration="11139000" />
-      <workItem from="1635355497294" duration="28971000" />
+      <workItem from="1635355497294" duration="32015000" />
     </task>
     <servers />
   </component>

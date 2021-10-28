@@ -5,6 +5,7 @@ import image from "../../resources/images/image.jpg";
 import { countDown } from "./CountDown";
 import Prizes from "../Prizes/Prizes";
 import Timeline from "../Timeline/Timeline";
+import Faq from "../FAQ/Faq";
 
 const Home = () => {
   setInterval(countDown, 1000);
@@ -47,6 +48,7 @@ const Home = () => {
       </section>
       <Prizes/>
       <Timeline />
+      <Faq/>
     </>
   );
 };

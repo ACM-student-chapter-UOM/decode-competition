@@ -43,7 +43,7 @@
     border-radius: 50%;
     border: 2px solid #29918e;
     position: absolute;
-    top: -25px;
+    bottom: 50px;
     transition: all 200ms ease;
 }
 
@@ -153,13 +153,12 @@
 
     .vertical-timeline-element--work:nth-child(even) .timeline-element .line {
         width: 45px;
-
     }
 
     .timeline-element .circle {
         left: 0 !important;
         right: 0 !important;
-        top: 112px;
+        bottom: 0;
     }
 
     .vertical-timeline-element--work:nth-child(odd) .timeline-element .circle {
@@ -180,6 +179,10 @@
         transition: all 200ms ease;
     }
 
+    .timeline-element p {
+        text-align: start !important;
+    }
+
     .vertical-timeline-element--work:hover .timeline-element .sub-circle {
         transform: scale(1.5);
         transition: all 200ms ease;
@@ -190,8 +193,5 @@
     .vertical-timeline {
         margin-left: 16px;
         width: calc(100% - 16px) !important;
-    }
-    .timeline-element .circle {
-        top: 98px;
     }
 }
