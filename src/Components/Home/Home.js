@@ -4,6 +4,7 @@ import "./Home.css";
 import image from "../../resources/images/image.jpg";
 import { countDown } from "./CountDown";
 import Prizes from "../Prizes/Prizes";
+import Timeline from "../Timeline/Timeline";
 import Faq from "../FAQ/Faq";
 
 const Home = () => {
@@ -46,6 +47,7 @@ const Home = () => {
         </div>
       </section>
       <Prizes/>
+      <Timeline />
       <Faq/>
     </>
   );
