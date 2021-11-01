@@ -15,7 +15,6 @@ const Home = () => {
       <div className="navigation">
         <NavBar />
       </div>
-
       <section className="home">
         <div className="comming-soon row d-flex align-items-stretch">
           <div className="numberCount col-md-9 col-sm-9 col-xs-9 col-8">
@@ -47,10 +46,9 @@ const Home = () => {
         </div>
       </section>
       <Prizes />
-
+      <Prizes />
+      <Faq />
       <Footer />
-      <Prizes/>
-      <Faq/>
     </>
   );
 };
