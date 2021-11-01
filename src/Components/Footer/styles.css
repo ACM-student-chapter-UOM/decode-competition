@@ -1,0 +1,31 @@
+.footer-section {
+}
+
+.footer-container {
+  background-color: rgb(7, 19, 48, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.footer-follow-title {
+  font-size: 20px;
+  color: #fff;
+}
+.footer-social-logo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-link-image {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-link-image:hover {
+  color: rgba(255, 255, 255);
+}
+.copyright-message {
+  color: rgba(255, 255, 255);
+}

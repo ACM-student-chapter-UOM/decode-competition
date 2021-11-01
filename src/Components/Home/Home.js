@@ -4,6 +4,7 @@ import "./Home.css";
 import image from "../../resources/images/image.jpg";
 import { countDown } from "./CountDown";
 import Prizes from "../Prizes/Prizes";
+import Footer from "../Footer/Footer";
 import Timeline from "../Timeline/Timeline";
 import Faq from "../FAQ/Faq";
 
@@ -15,7 +16,6 @@ const Home = () => {
       <div className="navigation">
         <NavBar />
       </div>
-
       <section className="home">
         <div className="comming-soon row d-flex align-items-stretch">
           <div className="numberCount col-md-9 col-sm-9 col-xs-9 col-8">
@@ -46,9 +46,10 @@ const Home = () => {
           <img src={image} alt="imag" />
         </div>
       </section>
-      <Prizes/>
-      <Timeline />
-      <Faq/>
+      <Prizes />
+      <Prizes />
+      <Faq />
+      <Footer />
     </>
   );
 };
