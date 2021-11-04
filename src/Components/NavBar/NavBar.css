@@ -12,6 +12,9 @@ nav {
   background-color: rgba(35, 20, 245, 0.4);
   width: 100%;
   padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 
 .navBar {
@@ -25,7 +28,10 @@ nav {
   text-decoration: none;
 }
 
-
+.row nav-row{
+  margin-left: 25vw;
+  position: inherit;
+}
 
 .items {
   display: flex;
@@ -35,7 +41,7 @@ nav {
 }
 
 .active {
-  background-color: rgb(2, 2, 2, 0.6);
+  background-color: rgba(2, 2, 2, 0.6);
 }
 .menuIcon {
   display: none;
@@ -45,7 +51,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 }
 
@@ -53,16 +59,16 @@ nav {
   .nav-links {
     display: none;
   }
-  
- 
+
+
 
   .logo {
-   
+
     padding: 20px;
     display: flex;
   justify-content: center;
   align-items: center;
-    
+
   }
   .menuIcon {
     display:flex;
@@ -70,8 +76,8 @@ nav {
     align-items: center;
     color: azure;
     font-size: 30px;
-    
-    
+
+
   }
 }
 
