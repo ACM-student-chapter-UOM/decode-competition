@@ -8,7 +8,7 @@ import Prizes from "../Prizes/Prizes";
 import Footer from "../Footer/Footer";
 import Timeline from "../Timeline/Timeline";
 import Faq from "../FAQ/Faq";
-import {ReactComponent as DecodeLogo} from '../../resources/svg/LogoWhite.svg';
+
 
 
 const Home = () => {
@@ -23,7 +23,9 @@ const Home = () => {
         {/*logo*/}
         <div className="logo-section">
            <img className="decode-logo" src={LogoWhite} atl={'decode-logo'}/>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp;
+            <p className='decode-version'>DECODE 1.0</p>
+
            <p className="decode-description">Learn competitive programming with the help of CodeChef's coding competitions. <br/>Take part in these online coding contests to level up your skills.</p>
         </div>
         {/*logo end*/}
@@ -65,8 +67,8 @@ const Home = () => {
         {/*  <img src={image} alt="imag" />*/}
         {/*</div>*/}
       </section>
-      <Prizes />
-      <Prizes />
+      {/*<Prizes />*/}
+      {/*<Prizes />*/}
       <Faq />
       <Footer />
     </>

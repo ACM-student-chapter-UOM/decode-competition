@@ -93,11 +93,16 @@
   font-family: 'Press Start 2P', cursive;
   /*font-family: 'Quantico', sans-serif;*/
   text-align: center;
-  font-size: 1vw;
+  font-size: 0.8vw;
   color: #fff;
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 22px #44ece8, 0 0 30px #1daea9;
+}
 
-
+.decode-version{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 1vw;
+  color: #fff;
 }
 
 .logo-section{
@@ -249,7 +254,7 @@ h4{
 
 /*creating animation effect*/
 .reg-btn:hover {
-  color: #111;
+  color: #ffffff;
   background: #27aba7;
   box-shadow: 0 0 10px #44ece8;
 }
