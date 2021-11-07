@@ -46,20 +46,48 @@ function Faq() {
 //sample data
 const data = [
   {
-    question: "What is the starting date?",
-    answer: "00-00-2021 ",
+    question: "How many members for a team can we have?",
+    answer: "You can have 3 members per team.",
   },
   {
-    question: "What is the team size?",
-    answer: "Between 0-0 members",
+    question: "Is the competition only for the students of UoM / state universities?",
+    answer: "No, this competition is open for any undergraduate studying in Sri Lanka.",
   },
   {
-    question: "Who can participate?",
-    answer: "tttttttttttttttttttttttttt ttttttttttttttttttttttttttttttttt",
+    question: "Can the 3 members of the team be undergraduates of different universities?",
+    answer: "No, all the members should be from the same institution.",
   },
   {
-    question: "Is there a registration fee?",
-    answer: "wwww",
+    question: "Can I form a team with 2 members or participate individually?",
+    answer: "No, you must form a 3 member team.",
+  },
+  {
+    question: "Can we use the personal hackerrank account to submit answers?",
+    answer: "The hackerank account name should be the team name.",
+  },
+  {
+    question: "How long is the competition?",
+    answer: "The competition is 4 hours long.",
+  },
+  {
+    question: "How can I register a team for the competition?",
+    answer: "You can use this link https://forms.gle/AJUK1967Vs3B1E2e7",
+  },
+  {
+    question: "When does the competition take place?",
+    answer: "13th November 2021 from 8.00 a.m. to 12.00 p.m. (Duration - 4 hours)",
+  },
+  {
+    question: "Do multiple submissions for the same challenge inflict a penalty?",
+    answer: "No",
+  },
+  {
+    question: "Is the submission time taken into account?",
+    answer: "Only if two teams have the same score on a particular challenge.",
+  },
+  {
+    question: "Do the challenges have a difficulty rating?",
+    answer: "No",
   },
 ];
 
