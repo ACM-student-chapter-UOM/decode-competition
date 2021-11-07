@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "avenger";
+    src: local("avenger"),
+    url("src/fonts/avenger/avenger.ttf") format("truetype");
+    font-weight: bold;
+}

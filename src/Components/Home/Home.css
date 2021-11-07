@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans+Mono:wght@500&family=Roboto+Mono:wght@200;400&display=swap");
 
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,7 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 
 .count-down {
   display: flex;
@@ -16,23 +18,30 @@
 .hour,
 .minute,
 .second {
-  font-size: 4rem;
+  font-size: 4vw;
+  margin: auto;
   font-family: "Roboto Mono", monospace;
+  font-weight: bolder;
   color: rgb(255, 255, 255);
   display: flex;
+  font-stretch: expanded;
   justify-content: center;
+
+
 }
 
 .numberCount {
   display: flex;
-  padding: 60px 0px;
-  background-color: rgb(233, 237, 240, 0.3);
+  padding: 20px 0 20px 0px;
+  background-color: rgba(14, 18, 21, 0.7);
+  justify-content: center;
+  width:100%;
 }
 .numberCount h4 {
   display: flex;
   justify-content: center;
 
-  font-size: 1rem;
+  font-size: 1.1vw;
   font-family: "Roboto Mono", monospace;
   color: rgb(255, 255, 255);
 }
@@ -41,16 +50,18 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(5, 5, 5, 0.3);
+  margin-left: 37%;
 }
 .container-register a {
-  font-family: "Lora", serif;
+  font-family: "Roboto Mono", monospace;
   color: aquamarine;
-  font-size: 3rem;
+  font-size: 1.6vw;
   text-decoration: none;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .home {
-  min-height: 100vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -60,6 +71,45 @@
 }
 .comming-soon {
   width: 100%;
+  justify-content: center;
+  margin: auto;
+  background-image: url("../../resources/images/image.jpg") ;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.decode-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  padding-top: 160px;
+}
+
+.decode-description{
+  font-family: 'Press Start 2P', cursive;
+  /*font-family: 'Quantico', sans-serif;*/
+  text-align: center;
+  font-size: 0.8vw;
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 22px #44ece8, 0 0 30px #1daea9;
+}
+
+.decode-version{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 1vw;
+  color: #fff;
+}
+
+.logo-section{
+  background-image: url("https://scitechdaily.com/images/Computer-Circuit-Concept.gif");
+  background-size: cover;
+  height: 400px;
+  margin: auto;
 }
 
 .hacker-image img {
@@ -78,6 +128,32 @@
   width: 100%;
 }
 
+h4{
+  font-family: 'Monospaced';
+}
+
+.container-day,
+.container-hour,
+.container-minute,
+.container-second{
+  font-size: 4vw;
+  font-family: 'Monospaced';
+  color: #fff;
+  text-shadow: 0 0 3px #fff, 0 0 1px #fff, 0 0 22px #44ece8, 0 0 30px #1daea9;
+  text-align: center;
+
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  background: transparent;
+  border: 3px solid #44ece8 ;
+  box-shadow: 0 0 3px #fff, 0 0 1px #fff, 0 0 22px #44ece8, 0 0 30px #1daea9;
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-right: 2vw;
+
+}
+
 @media (max-width: 575px) {
   .navBar {
     position: relative;
@@ -85,62 +161,100 @@
 }
 
 @media (max-width: 1024px) {
-  .container-register a {
-    font-size: 3rem;
-  }
-  .day,
-  .hour,
-  .minute,
-  .second {
-    font-size: 4rem;
-  }
-  .numberCount h4 {
-    font-size: 1rem;
-  }
+  /*.container-register a {*/
+  /*  font-size: 3rem;*/
+  /*}*/
+  /*.day,*/
+  /*.hour,*/
+  /*.minute,*/
+  /*.second {*/
+  /*  font-size: 4rem;*/
+
+  /*}*/
+  /*.numberCount h4 {*/
+  /*  font-size: 1rem;*/
+  /*}*/
 }
 
 @media (max-width: 950px) {
-  .container-register a {
-    font-size: 2.5rem;
-  }
-  .day,
-  .hour,
-  .minute,
-  .second {
-    font-size: 3.5rem;
-  }
-  .numberCount h4 {
-    font-size: 1rem;
-  }
+  /*.container-register a {*/
+  /*  font-size: 2.5rem;*/
+  /*}*/
+  /*.day,*/
+  /*.hour,*/
+  /*.minute,*/
+  /*.second {*/
+  /*  font-size: 3.5rem;*/
+  /*}*/
+  /*.numberCount h4 {*/
+  /*  font-size: 1rem;*/
+  /*}*/
 }
 
 @media (max-width: 650px) {
-  .container-register a {
-    font-size: 2rem;
-  }
-  .day,
-  .hour,
-  .minute,
-  .second {
-    font-size: 3rem;
-  }
-  .numberCount h4 {
-    font-size: 1rem;
-  }
+  /*.container-register a {*/
+  /*  font-size: 2rem;*/
+  /*}*/
+  /*.day,*/
+  /*.hour,*/
+  /*.minute,*/
+  /*.second {*/
+  /*  font-size: 3rem;*/
+  /*}*/
+  /*.numberCount h4 {*/
+  /*  font-size: 1rem;*/
+  /*}*/
 }
 
 @media (max-width: 480px) {
-  .container-register a {
-    font-size: 1.5rem;
-  }
+  /*.container-register a {*/
+  /*  font-size: 1.5rem;*/
+  /*}*/
 
-  .day,
-  .hour,
-  .minute,
-  .second {
-    font-size: 2.5rem;
-  }
-  .numberCount h4 {
-    font-size: 0.5rem;
-  }
+  /*.day,*/
+  /*.hour,*/
+  /*.minute,*/
+  /*.second {*/
+  /*  font-size: 2.5rem;*/
+  /*}*/
+  /*.numberCount h4 {*/
+  /*  font-size: 0.5rem;*/
+  /*}*/
+}
+
+/*register button css*/
+
+/*styling background*/
+/*body {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  display: flex;*/
+/*  height: 100vh;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  background-color: #000;*/
+/*  font-family: sans-serif;*/
+/*}*/
+
+/* styling the button*/
+.reg-btn {
+  padding: 20px 20px;
+  display: inline-block;
+  color: #008000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 3em;
+  overflow: hidden;
+  border: 3px solid #44ece8 ;
+  border-radius: 30%;
+  justify-content: center;
+
+}
+
+/*creating animation effect*/
+.reg-btn:hover {
+  color: #ffffff;
+  background: #27aba7;
+  box-shadow: 0 0 10px #44ece8;
 }

@@ -14,7 +14,7 @@ const NavBar = () => {
             <a href="#x">ACM</a>
           </div>
           <div
-           
+
             className="menuIcon col-9 col-md-9 col-sm-9"
           >
             <i  onClick={showNavBar} class="fas fa-align-justify"></i>
@@ -24,15 +24,15 @@ const NavBar = () => {
               show ? "col-md-12 col-sm-12" : "nav-links col-md-9 col-sm-9"
             }
           >
-            <div className="row">
+            <div className="row nav-row" >
               <div className="items active col-md-2">
                 <a href="#x">Home</a>
               </div>
               <div className="items col-md-2 ">
-                <a href="#x">sponsers</a>
+                <a href="#x">Sponsers</a>
               </div>
               <div className="items col-md-2">
-                <a href="#xgh">pricing</a>
+                <a href="#xgh">Awards</a>
               </div>
               <div className="items col-md-2">
                 <a href="#x">FAQ</a>
