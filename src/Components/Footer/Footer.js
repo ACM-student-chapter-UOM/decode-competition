@@ -30,7 +30,7 @@ export default function Footer() {
           />
         </div>
         <div style={{ height: "20px" }} />
-        <p className="copyright-message">© 2021 ACM student's chapter</p>
+        <p className="copyright-message">© 2021 Association for Computing Machinery, University of Moratuwa</p>
       </div>
     </section>
   );

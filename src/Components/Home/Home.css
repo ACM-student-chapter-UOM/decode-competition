@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans+Mono:wght@500&family=Roboto+Mono:wght@200;400&display=swap");
 
-
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +7,6 @@
   list-style: none;
   box-sizing: border-box;
 }
-
 
 .count-down {
   display: flex;
@@ -26,8 +24,6 @@
   display: flex;
   font-stretch: expanded;
   justify-content: center;
-
-
 }
 
 .numberCount {
@@ -35,7 +31,7 @@
   padding: 20px 0 20px 0px;
   background-color: rgba(14, 18, 21, 0.7);
   justify-content: center;
-  width:100%;
+  width: 100%;
 }
 .numberCount h4 {
   display: flex;
@@ -73,7 +69,7 @@
   width: 100%;
   justify-content: center;
   margin: auto;
-  background-image: url("../../resources/images/image.jpg") ;
+  background-image: url("../../resources/images/image.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,7 +77,7 @@
   background-size: cover;
 }
 
-.decode-logo{
+.decode-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -89,8 +85,8 @@
   padding-top: 160px;
 }
 
-.decode-description{
-  font-family: 'Press Start 2P', cursive;
+.decode-description {
+  font-family: "Press Start 2P", cursive;
   /*font-family: 'Quantico', sans-serif;*/
   text-align: center;
   font-size: 0.8vw;
@@ -98,14 +94,14 @@
   text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 22px #44ece8, 0 0 30px #1daea9;
 }
 
-.decode-version{
-  font-family: 'Press Start 2P', cursive;
+.decode-version {
+  font-family: "Press Start 2P", cursive;
   text-align: center;
   font-size: 1vw;
   color: #fff;
 }
 
-.logo-section{
+.logo-section {
   background-image: url("https://scitechdaily.com/images/Computer-Circuit-Concept.gif");
   background-size: cover;
   height: 400px;
@@ -128,16 +124,16 @@
   width: 100%;
 }
 
-h4{
-  font-family: 'Monospaced';
+h4 {
+  font-family: "Monospaced";
 }
 
 .container-day,
 .container-hour,
 .container-minute,
-.container-second{
+.container-second {
   font-size: 4vw;
-  font-family: 'Monospaced';
+  font-family: "Monospaced";
   color: #fff;
   text-shadow: 0 0 3px #fff, 0 0 1px #fff, 0 0 22px #44ece8, 0 0 30px #1daea9;
   text-align: center;
@@ -146,12 +142,11 @@ h4{
   width: 10vw;
   height: 10vw;
   background: transparent;
-  border: 3px solid #44ece8 ;
+  border: 3px solid #44ece8;
   box-shadow: 0 0 3px #fff, 0 0 1px #fff, 0 0 22px #44ece8, 0 0 30px #1daea9;
-  margin-top:auto;
-  margin-bottom:auto;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 2vw;
-
 }
 
 @media (max-width: 575px) {
@@ -246,10 +241,10 @@ h4{
   text-decoration: none;
   font-size: 3em;
   overflow: hidden;
-  border: 3px solid #44ece8 ;
-  border-radius: 30%;
+  border: 3px solid #44ece8;
+  border-radius: 10%;
   justify-content: center;
-
+  transition: 0.5s;
 }
 
 /*creating animation effect*/

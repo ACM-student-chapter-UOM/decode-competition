@@ -11,13 +11,13 @@ const NavBar = () => {
       <nav>
         <div className="navBar row">
           <div className="logo col-3 col-md-3 col-sm-3">
-            <a href="#x">ACM</a>
+            <a href="/">ACM</a>
           </div>
           <div
 
             className="menuIcon col-9 col-md-9 col-sm-9"
           >
-            <i  onClick={showNavBar} class="fas fa-align-justify"></i>
+            <i onClick={showNavBar} class="fas fa-align-justify"></i>
           </div>
           <div
             className={
@@ -25,23 +25,11 @@ const NavBar = () => {
             }
           >
             <div className="row nav-row" >
-              <div className="items active col-md-2">
-                <a href="#x">Home</a>
-              </div>
-              <div className="items col-md-2 ">
-                <a href="#x">Sponsers</a>
+              <div className="items col-md-2">
+                <a href="#timeline">Timeline</a>
               </div>
               <div className="items col-md-2">
-                <a href="#xgh">Awards</a>
-              </div>
-              <div className="items col-md-2">
-                <a href="#x">FAQ</a>
-              </div>
-              <div className="items col-md-2">
-                <a href="#x">ContactUs</a>
-              </div>
-              <div className="items col-md-2">
-                <a href="#x">aboutUs</a>
+                <a href="#faq">FAQ</a>
               </div>
             </div>
           </div>

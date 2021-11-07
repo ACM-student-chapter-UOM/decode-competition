@@ -1,5 +1,5 @@
 import React from "react"
-import {VerticalTimeline} from 'react-vertical-timeline-component';
+import { VerticalTimeline } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 import './Timeline.css'
@@ -36,9 +36,9 @@ export default function Timeline() {
     ]
 
     return (
-        <div style={{background: '#071330', padding: '32px 0', position: "relative"}}>
-            <h2 className="title">Event Timeline</h2>
-            <div style={{display: "flex", justifyContent: "center"}}>
+        <div style={{ background: '#071330', padding: '32px 0', position: "relative" }}>
+            <h2 className="title" id="timeline">Event Timeline</h2>
+            <div style={{ display: "flex", justifyContent: "center" }}>
                 <VerticalTimeline>
                     {
                         timelineEvents.map((item, index) => (

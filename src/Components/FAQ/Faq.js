@@ -11,7 +11,7 @@ function Faq() {
     setSelected(i);
   };
   return (
-    <div style={{ backgroundColor: "#071330" }}>
+    <div style={{ backgroundColor: "#071330" }} id="faq">
       <div className="container container--xs">
         <div className="row align-items-center">
           <div className="wrapper1">
