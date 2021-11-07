@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./NavBar.css";
+import AcmLogo from "../../resources/images/acm-logo.png";
 
 const NavBar = () => {
   const [show, setshow] = useState(false);
@@ -11,7 +12,7 @@ const NavBar = () => {
       <nav>
         <div className="navBar row">
           <div className="logo col-3 col-md-3 col-sm-3">
-            <a href="/">ACM</a>
+            <img className={'acm-logo'} src={AcmLogo} alt={'acm-logo'}/>
           </div>
           <div
 

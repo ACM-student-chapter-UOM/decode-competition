@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             {/*counting end*/}
           </div>
-          <div className="container-register col-md-3 col-sm-3 col-xs-3 col-4">
+          <div className="container-register ">
             <a className="reg-btn" href="#x">Register Now</a>
           </div>
         </div>
