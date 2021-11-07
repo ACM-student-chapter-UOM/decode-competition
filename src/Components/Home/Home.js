@@ -26,7 +26,7 @@ const Home = () => {
         &nbsp; &nbsp; &nbsp;
         <p className='decode-version'>DECODE 1.0</p>
 
-        <p className="decode-description">Experience a competitive programming experience. <br />Take your skills to the next level.</p>
+        <p className="decode-description">Solve. Code. Win</p>
       </div>
       {/*logo end*/}
 
@@ -36,24 +36,24 @@ const Home = () => {
             {/*counting start*/}
             <div className="container-day col-md-3 col-sm-3 col-xs-3 col-3">
               <p className="day">00</p>
-              <h4>DAY</h4>
+              <h4>DAYS</h4>
             </div>
             <div className="container-hour col-md-3 col-sm-3 col-xs-3 col-3">
               <p className="hour">00</p>
-              <h4>HOUR</h4>
+              <h4>HOURS</h4>
             </div>
             <div className="container-minute col-md-3 col-sm-3 col-xs-3 col-3">
               <p className="minute">00</p>
-              <h4>MINUTE</h4>
+              <h4>MINUTES</h4>
             </div>
             <div className="container-second col-md-3 col-sm-3 col-xs-3 col-3">
               <p className="second">00</p>
-              <h4>SECOND</h4>
+              <h4>SECONDS</h4>
             </div>
             {/*counting end*/}
           </div>
           <div className="container-register ">
-            <a className="reg-btn" href="#x">Register Now</a>
+            <a className="reg-btn" href="https://forms.gle/AJUK1967Vs3B1E2e7" target="_blank">Register Now</a>
           </div>
         </div>
 

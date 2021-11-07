@@ -10,28 +10,22 @@ export default function Timeline() {
 
     const timelineEvents = [
         {
-            title: "Team Registration",
-            line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            line2: "Lorem Ipsum has been the industry's standard dummy text",
-            date: "NOVEMBER 01st"
+            title: "Team Registrations Start",
+            line1: "Register your team of 3 members.",
+            //line2: "Lorem Ipsum has been the industry's standard dummy text",
+            date: "November 01"
         },
         {
-            title: "Team Registration",
-            line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            line2: "Lorem Ipsum has been the industry's standard dummy text",
-            date: "NOVEMBER 01st"
+            title: "Team Registrations End",
+            line1: "Register your team before the deadline.",
+            //line2: "Lorem Ipsum has been the industry's standard dummy text",
+            date: "November 10"
         },
         {
-            title: "Team Registration",
-            line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            line2: "Lorem Ipsum has been the industry's standard dummy text",
-            date: "NOVEMBER 01st"
-        },
-        {
-            title: "Team Registration",
-            line1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            line2: "Lorem Ipsum has been the industry's standard dummy text",
-            date: "NOVEMBER 01st"
+            title: "Competition Starts",
+            line1: "Decode 2021 Officially Starts.",
+            //line2: "Lorem Ipsum has been the industry's standard dummy text",
+            date: "November 13"
         },
     ]
 
