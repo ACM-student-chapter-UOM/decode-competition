@@ -57,12 +57,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/*Register section*/}
-
-
-
-        {/*Register section end*/}
-
         {/*<div className="hacker-image">*/}
         {/*  <img src={image} alt="imag" />*/}
         {/*</div>*/}
