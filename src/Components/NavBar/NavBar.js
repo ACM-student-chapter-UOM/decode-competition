@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import AcmLogo from "../../resources/images/acm-logo.png";
+import decodeLogo from "../../resources/images/LogoWhite.png";
 
 const NavBar = () => {
   const [show, setshow] = useState(false);
@@ -12,7 +13,7 @@ const NavBar = () => {
       <nav>
         <div className="navBar row">
           <div className="logo col-3 col-md-3 col-sm-3">
-            <img className={'acm-logo'} src={AcmLogo} alt={'acm-logo'}/>
+            <img className={'acm-logo'} src={decodeLogo} alt={'decode-logo'} />
           </div>
           <div
 
@@ -30,7 +31,7 @@ const NavBar = () => {
                 <a href="#timeline">Timeline</a>
               </div>
               <div className="items col-md-2">
-                <a href="#faq">FAQ</a>
+                <a href="#faq">FAQs</a>
               </div>
             </div>
           </div>

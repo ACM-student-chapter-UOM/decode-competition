@@ -11,7 +11,8 @@ function Faq() {
     setSelected(i);
   };
   return (
-    <div style={{ backgroundColor: "#071330" }} id="faq">
+    <div style={{ backgroundColor: "#093147", paddingTop: "50px" }} id="faq">
+      <h2 className="title" id="timeline">FAQs</h2>
       <div className="container container--xs">
         <div className="row align-items-center">
           <div className="wrapper1">

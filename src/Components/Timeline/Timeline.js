@@ -30,7 +30,7 @@ export default function Timeline() {
     ]
 
     return (
-        <div style={{ background: '#071330', padding: '32px 0', position: "relative" }}>
+        <div style={{ background: "#093147", padding: '32px 0', position: "relative", paddingTop: "50px" }}>
             <h2 className="title" id="timeline">Event Timeline</h2>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <VerticalTimeline>
