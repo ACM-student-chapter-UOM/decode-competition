@@ -1,3 +1,7 @@
+.faq-section {
+  opacity: 0.1;
+}
+
 .wrapper1 {
   display: flex;
   height: 100%;

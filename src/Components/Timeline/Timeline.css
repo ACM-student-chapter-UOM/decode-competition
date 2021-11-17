@@ -1,4 +1,9 @@
+.timeline-section {
+  opacity: 0.1;
+}
+
 .title {
+  opacity: 0.1;
   color: white;
   margin-bottom: 32px;
   text-align: center;

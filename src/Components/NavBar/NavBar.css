@@ -68,8 +68,9 @@ nav {
     align-items: center;
   }
 
-  .acm-logo {
+  .decode-logo {
     width: 200px;
+    padding-left: 10%;
   }
 }
 
@@ -92,8 +93,8 @@ nav {
     font-size: 30px;
   }
 
-  .acm-logo {
-    padding-left: 30%;
+  .decode-logo {
+    padding-left: 50%;
     width: 150px;
   }
 }

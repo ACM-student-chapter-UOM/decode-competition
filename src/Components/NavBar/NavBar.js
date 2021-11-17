@@ -13,7 +13,7 @@ const NavBar = () => {
       <nav>
         <div className="navBar row">
           <div className="logo col-3 col-md-3 col-sm-3">
-            <img className={'acm-logo'} src={decodeLogo} alt={'decode-logo'} />
+            <img className={'decode-logo'} src={decodeLogo} alt={'decode-logo'} />
           </div>
           <div
 
@@ -27,6 +27,9 @@ const NavBar = () => {
             }
           >
             <div className="row nav-row" >
+              <div className="items col-md-2">
+                <a href="#results">Rankings</a>
+              </div>
               <div className="items col-md-2">
                 <a href="#timeline">Timeline</a>
               </div>
