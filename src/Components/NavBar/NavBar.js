@@ -28,6 +28,9 @@ const NavBar = () => {
           >
             <div className="row nav-row" >
               <div className="items col-md-2">
+                <a href="#results">Rankings</a>
+              </div>
+              <div className="items col-md-2">
                 <a href="#timeline">Timeline</a>
               </div>
               <div className="items col-md-2">

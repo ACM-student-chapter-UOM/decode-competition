@@ -13,7 +13,7 @@ function Faq() {
   return (
     <div style={{ backgroundColor: "#093147", paddingTop: "50px" }} id="faq">
       <h2 className="title" id="timeline">FAQs</h2>
-      <div className="container container--xs">
+      <div className="container container--xs faq-section">
         <div className="row align-items-center">
           <div className="wrapper1">
             <div className="accordion1">

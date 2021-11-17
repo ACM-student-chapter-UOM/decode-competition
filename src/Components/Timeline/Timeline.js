@@ -32,7 +32,7 @@ export default function Timeline() {
     return (
         <div style={{ background: "#093147", padding: '32px 0', position: "relative", paddingTop: "50px" }}>
             <h2 className="title" id="timeline">Event Timeline</h2>
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <div style={{ display: "flex", justifyContent: "center" }} className="timeline-section">
                 <VerticalTimeline>
                     {
                         timelineEvents.map((item, index) => (
