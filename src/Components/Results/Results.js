@@ -37,7 +37,7 @@ function Results() {
             <div>
               {data.map((item, i) => (
                 <div className="result-item">
-                  {(i == 20) ? <p>{i} : {item}</p> : <p>{i + 1} : {item}</p>}
+                  {(i >= 20) ? <p>20 : {item}</p> : <p>{i + 1} : {item}</p>}
 
                 </div>
               ))}
@@ -117,6 +117,7 @@ const data = [
   "Team_Viki_DECODE1",
   "madurangalakbima",
   "blueeagles727",
+  "Xcite_DECODE1",
 ];
 
 export default Results;
